@@ -1,4 +1,3 @@
-// Global variables
 const timeEL = document.querySelector('.watch .time');
 const startButton = document.getElementById("start");
 const stopButton = document.getElementById("stop");
@@ -6,10 +5,6 @@ const resetButton = document.getElementById("reset");
 
 let TotalSeconds = 0;
 let interval = null;
-
-// startButton.addEventListener("click", Fstart);
-// stopButton.addEventListener("click", Fstop);
-// resetButton.addEventListener("click", Freset);
 
 function timer () {
 	TotalSeconds++;
