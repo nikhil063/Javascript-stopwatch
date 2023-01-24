@@ -21,6 +21,9 @@ function timer () {
 }
 
 function Fstart () {
+	if (interval) {
+		return
+	}
 	interval = setInterval(timer, 1000);
 }
 
