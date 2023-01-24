@@ -17,7 +17,7 @@ body {
 	border-radius: 16px;
 }
 
-.watch .time {
+#time {
 	font-size: 80px;
 	font-weight:300;
 	margin-bottom: 16px;
